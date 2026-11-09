@@ -1034,7 +1034,7 @@ jobs:
         run: tombi format --check --diff
 
       - name: Check for typos
-        uses: crate-ci/typos@7f9d0819ca1c008ade73f4b41fa9d258d48f605b # v1.51.1
+        uses: crate-ci/typos@2611abd15acb0c2e317fb9e45855aabb8b35a414 # v1.52.1
 
   check-cts-runner:
     # runtime is normally 2 minutes
